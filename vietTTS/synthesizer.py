@@ -10,7 +10,7 @@ from .nat.config import FLAGS
 from .nat.text2mel import text2mel
 
 parser = ArgumentParser()
-parser.add_argument("--text", type=str)
+parser.add_argument("--text", type=str)ds
 parser.add_argument("--output", default="clip.wav", type=Path)
 parser.add_argument("--sample-rate", default=16000, type=int)
 parser.add_argument("--silence-duration", default=-1, type=float)
